@@ -8,7 +8,7 @@ addons:
    sonarcloud:
       organization: "akatsuki"
       token:
-         secure: "85e578522590246a3fb6769de05d6ad33f10928a" # encrypted value of your token
+         secure: "f09aa6e3e8d7d11ad0cb244c06675ba2ed721c5b" # encrypted value of your token
 
 
 script:
