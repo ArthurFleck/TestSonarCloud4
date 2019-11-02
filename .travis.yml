@@ -4,13 +4,13 @@ jdk:
    #- oraclejdk9
    - openjdk8
 
-#addons:
-#   sonarcloud:
-#      organization: "akatsuki"
-#      token:
-#         secure: "" # encrypted value of your token
+addons:
+   sonarcloud:
+      organization: "akatsuki"
+      token:
+         secure: "85e578522590246a3fb6769de05d6ad33f10928a" # encrypted value of your token
 
 
 script:
   - ant build
-  #- sonar-scanner
+  - sonar-scanner
